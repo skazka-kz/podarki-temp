@@ -2,5 +2,11 @@
   "name": "skazka-podarki-temp",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start --server 'site' --files 'site'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
 }
