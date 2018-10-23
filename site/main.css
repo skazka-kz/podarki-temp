@@ -150,6 +150,7 @@ span.notice {
     font-size: 1.6rem;
     background-color: #9EBDE7;
     color: #1d38d9;
+    padding: 1rem;
 }
 
 /** {
@@ -159,4 +160,18 @@ span.notice {
 /*
     Larger screen styles
  */
+@media(min-width: 768px){
 
+    section.tall {
+        min-height: auto;
+    }
+
+    section#intro img {
+        width: auto;
+    }
+
+    footer {
+        flex-direction: row;
+        align-items: start;
+    }
+}
