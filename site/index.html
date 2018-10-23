@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Новогодние подарки от компании Сказка в Кокшетау и Костанай.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
           content="Сладкие новогодние подарки для детей, оптом и в розницу. Огромный выбор для любого бюджета с кондитерскими изделиями от Рахат, Баян-Сулу, Славянка, Победа и Sweetlife. Посмотреть и скачать каталог 2019">
 
@@ -25,19 +25,16 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69266859-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-
       function gtag() {
         dataLayer.push(arguments);
       }
-
       gtag('js', new Date());
-
       gtag('config', 'UA-69266859-1');
     </script>
 
@@ -47,23 +44,43 @@
     <img src="static/skazka-logo-optimised-small-shrunk.png" alt="Сказка Кокшетау логотип">
 </header>
 <section id="intro">
-    <h1>Header</h1>
-    <span class="year">2019</span>
+    <h1>Каталог новогодних подарков от Сказки</h1>
+    <img src="static/cover.jpg" alt="Каталог Новогодних подарков, обложка">
 </section>
-<section id="links">
-    <button>hd</button>
-    <button>sd</button>
+<section class="tall" id="links">
+    <h2>Скачать</h2>
+    <a class="button" href="static/podarki-katalog-hd.pdf" target="_blank">Высокое качество (PDF, 9,3МБ)</a>
+    <a class="button" href="static/podarki-katalog-sd.pdf" target="_blank">Обычное качество (PDF, 1,9МБ)</a>
+</section>
+<section class="tall" id="getting-here">
+    <h2>Как нас найти</h2>
+    <a href="static/getting-here.png" target="_blank">
+        <img
+                srcset="static/getting-here.png 1378w,
+                        static/getting-here-thumb.png 344w"
+
+                alt="Как добраться, Ауэзова 191/А3, Компания Сказка"
+                src="static/getting-here-thumb.png">
+    </a>
+    <div class="buttons">
+        <a class="button yandex" href="https://yandex.kz/maps/-/CBBwU6sPWA" target="_blank">Открыть в Яндекс.Картах</a>
+        <a class="button google" href="https://goo.gl/maps/cu15PCUJw4n" target="_blank">Открыть в Google Картах</a>
+    </div>
 </section>
 <footer>
-    <div class="map">
-        <a href="static/getting-here.png" target="_blank">
-            <img src="static/getting-here.png" alt="Как добраться, Ауэзова 191/А3, Компания Сказка">
-        </a>
-        <a href="#">open in yandex maps</a>
-        <a href="#">open in google maps</a>
-    </div>
-    <address>kokshetau</address>
-    <address>kostanai</address>
+    <address>
+        <span>г. Кокшетау </span><br/>
+        ул. Ауэзова, 191 а/3<br/>
+        тел: 25-45-45<br/>
+        тел: 25-67-25<br/>
+    </address>
+    <address>
+        <span>г. Костанай</span><br/>
+        ул Карбышева, 117<br/>
+        тел: 39-24-26<br/>
+        тел: 39-24-27<br/>
+        тел: + 7 777 538 02 60
+    </address>
 </footer>
 </body>
 </html>
