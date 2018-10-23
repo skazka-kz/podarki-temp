@@ -4,11 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "browser-sync start --server 'site' --files 'site'",
-    "deploy": "gh-pages -d site"
+    "start": "browser-sync start --server 'docs' --files 'docs'"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gh-pages": "^2.0.1"
+    "browser-sync": "^2.26.3"
   }
 }
