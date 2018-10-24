@@ -1,16 +1,19 @@
 /*
  colors:
  gradient from #9EBDE7 to #6297D9
+ lightblue: #AEFFF8
+ darkblue: #141448
 
  */
 
 html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 62.5%
+    font-family: 'Pacifico', cursive;
+    font-size: 62.5%;
+    font-weight: 300;
 }
 
 body {
-    background-image: linear-gradient(to right, #E0EAFC, #CFDEF3);
+    background-color: #AEFFF8;
     margin: 0;
 }
 
@@ -18,7 +21,6 @@ header {
     display: flex;
     justify-content: center;
     max-height: 150px;
-    background-color: #9EBDE7;
     padding: 2rem 0;
 }
 
@@ -28,6 +30,8 @@ header img {
 
 section#top-links {
     display: flex;
+    background-color: #141448;
+    color: white;
 }
 
 section#top-links ul {
@@ -43,12 +47,12 @@ section#top-links ul {
 section#top-links ul li {
     margin: 0;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 section#top-links ul li a {
     text-decoration: none;
-    text-transform: uppercase;
+    color: white;
 }
 
 section#intro {
@@ -57,6 +61,22 @@ section#intro {
     font-size: 2rem;
     font-weight: 300;
     color: #346ed9;
+}
+
+section#banner {
+    background-image: url("static/banner.png");
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#banner h1 {
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    font-size: 8rem;
+    font-weight: 300;
 }
 
 h1, h2 {
@@ -76,6 +96,10 @@ hr {
     border-bottom: 2px solid blue;
     width: 80%;
 }
+.wide {
+    width: 100%;
+}
+
 
 section#intro img {
     width: 100%;
