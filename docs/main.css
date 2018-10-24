@@ -1,16 +1,19 @@
 /*
  colors:
  gradient from #9EBDE7 to #6297D9
+ lightblue: #AEFFF8
+ darkblue: #141448
 
  */
 
 html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 62.5%
+    font-family: 'Pacifico', cursive;
+    font-size: 62.5%;
+    font-weight: 300;
 }
 
 body {
-    background-image: linear-gradient(to right, #E0EAFC, #CFDEF3);
+    background-color: #AEFFF8;
     margin: 0;
 }
 
@@ -18,7 +21,6 @@ header {
     display: flex;
     justify-content: center;
     max-height: 150px;
-    background-color: #9EBDE7;
     padding: 2rem 0;
 }
 
@@ -28,6 +30,8 @@ header img {
 
 section#top-links {
     display: flex;
+    background-color: #141448;
+    color: white;
 }
 
 section#top-links ul {
@@ -36,19 +40,19 @@ section#top-links ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 section#top-links ul li {
     margin: 0;
-    padding: 1rem;
-    font-size: 2rem;
+    padding: 0.2rem;
+    font-size: 3rem;
 }
 
 section#top-links ul li a {
     text-decoration: none;
-    text-transform: uppercase;
+    color: white;
 }
 
 section#intro {
@@ -57,6 +61,22 @@ section#intro {
     font-size: 2rem;
     font-weight: 300;
     color: #346ed9;
+}
+
+section#banner {
+    background-image: url("static/banner.png");
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#banner h1 {
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    font-size: 8rem;
+    font-weight: 300;
 }
 
 h1, h2 {
@@ -76,9 +96,20 @@ hr {
     border-bottom: 2px solid blue;
     width: 80%;
 }
-
-section#intro img {
+.wide {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.padded {
+    padding: 5rem 0;
+}
+
+section img {
+    width: 100%;
+    border: 2px solid #141448;
+    max-width: 350px;
 }
 
 section.tall {
@@ -97,19 +128,12 @@ section#links a {
 }
 
 .button {
-    background-color: #346ed9;
+    background-color: #141448;
     color: white;
+    padding: 2rem;
     text-decoration: none;
     font-weight: 700;
-    font-size: 2rem;
-}
-
-section#links a img {
-    height: 25px;
-}
-
-section#getting-here img {
-    margin: 2rem 0;
+    font-size: 2.5rem;
 }
 
 section#getting-here .buttons {
@@ -125,11 +149,11 @@ section#getting-here .buttons a {
 
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #9EBDE7;
-    color: #1d38d9;
+    background-color: #141448;
+    color: white;
 }
 
 footer address {
@@ -145,12 +169,37 @@ footer address span {
 
 span.notice {
     display: block;
-    width: 100%;
     text-align: center;
     font-size: 1.6rem;
-    background-color: #9EBDE7;
-    color: #1d38d9;
+    background-color: #141448;
+    color: white;
     padding: 1rem;
+}
+
+.limit {
+    max-width: 1200px;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+span.highlight {
+    border-left: 8px solid white;
+    padding-left: 1rem;
+    max-width: 380px;
+    font-size: 3.5rem;
+    color: #141448;
 }
 
 /** {
@@ -160,18 +209,51 @@ span.notice {
 /*
     Larger screen styles
  */
-@media(min-width: 768px){
-
-    section.tall {
-        min-height: auto;
+@media(max-width: 767px){
+    section#top-links ul li {
+        font-size: 2rem;
     }
 
-    section#intro img {
-        width: auto;
+    section#banner {
+        height: 250px;
+    }
+
+    section#banner h1 {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .cover {
+        display: none;
+    }
+
+    .col-2 {
+        flex-direction: column;
+    }
+
+    .col span {
+        padding: 1rem;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .button {
+        margin: 1.5rem;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    span.highlight {
+        width: 80%;
     }
 
     footer {
-        flex-direction: row;
-        align-items: start;
+        flex-direction: column;
     }
+
+    section.wide {
+        padding-bottom: 0;
+    }
+
 }
