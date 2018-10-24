@@ -256,4 +256,7 @@ span.highlight {
         padding-bottom: 0;
     }
 
+    section#banner {
+        background-image: url("static/banner-mobile.png");
+    }
 }
