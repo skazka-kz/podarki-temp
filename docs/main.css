@@ -216,6 +216,7 @@ span.highlight {
 
     section#banner {
         height: 250px;
+        background-image: url("static/banner-mobile.png");
     }
 
     section#banner h1 {
@@ -254,9 +255,5 @@ span.highlight {
 
     section.wide {
         padding-bottom: 0;
-    }
-
-    section#banner {
-        background-image: url("static/banner-mobile.png");
     }
 }
