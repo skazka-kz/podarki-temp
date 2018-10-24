@@ -106,8 +106,10 @@ hr {
     padding: 5rem 0;
 }
 
-section#intro img {
+section img {
     width: 100%;
+    border: 2px solid #141448;
+    max-width: 350px;
 }
 
 section.tall {
@@ -134,14 +136,6 @@ section#links a {
     font-size: 2.5rem;
 }
 
-section#links a img {
-    height: 25px;
-}
-
-section#getting-here img {
-    margin: 2rem 0;
-}
-
 section#getting-here .buttons {
     display: flex;
     flex-direction: row;
@@ -155,11 +149,11 @@ section#getting-here .buttons a {
 
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #9EBDE7;
-    color: #1d38d9;
+    background-color: #141448;
+    color: white;
 }
 
 footer address {
@@ -175,11 +169,10 @@ footer address span {
 
 span.notice {
     display: block;
-    width: 100%;
     text-align: center;
     font-size: 1.6rem;
-    background-color: #9EBDE7;
-    color: #1d38d9;
+    background-color: #141448;
+    color: white;
     padding: 1rem;
 }
 
@@ -216,18 +209,51 @@ span.highlight {
 /*
     Larger screen styles
  */
-@media(min-width: 768px){
-
-    section.tall {
-        min-height: auto;
+@media(max-width: 767px){
+    section#top-links ul li {
+        font-size: 2rem;
     }
 
-    section#intro img {
-        width: auto;
+    section#banner {
+        height: 250px;
+    }
+
+    section#banner h1 {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .cover {
+        display: none;
+    }
+
+    .col-2 {
+        flex-direction: column;
+    }
+
+    .col span {
+        padding: 1rem;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .button {
+        margin: 1.5rem;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    span.highlight {
+        width: 80%;
     }
 
     footer {
-        flex-direction: row;
-        align-items: start;
+        flex-direction: column;
     }
+
+    section.wide {
+        padding-bottom: 0;
+    }
+
 }
