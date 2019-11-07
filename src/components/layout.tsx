@@ -99,6 +99,10 @@ const ContactsWrap = styled.div`
 const ContactsBlock = styled.address`
   font-family: serif;
   font-style: italic;
+  
+  a {
+  color: white;
+  }
 `;
 const ContactsSeparator = styled.div`
   background-color: white;
@@ -110,6 +114,10 @@ const HorizontalSeparator = styled.div`
   margin: 1rem 10%;
   border: 1px solid white;
   border-radius: 0.25rem;
+`;
+
+const Larger = styled.span`
+  font-size: 1.3rem;
 `;
 
 const Layout: React.FC = ({ children }) => {
@@ -135,7 +143,7 @@ const Layout: React.FC = ({ children }) => {
           <AddressTitle>
             Сказка ждёт вас по адресу:
             <br />
-            г. Кокшетау, ул. Ауэзова 191\1
+            <Larger>г. Кокшетау, Ауэзова 191\1</Larger>
           </AddressTitle>
           <ContactsWrap>
             <ContactsBlock>
@@ -145,9 +153,9 @@ const Layout: React.FC = ({ children }) => {
             </ContactsBlock>
             <ContactsSeparator />
             <ContactsBlock>
-              тел: 25-45-45
+              тел: <a href="tel:+77162254545">25-45-45</a>
               <br />
-              +7 (7162) 25-67-25
+              <a href="tel:+77162256725">+7 (7162) 25-67-25</a>
             </ContactsBlock>
           </ContactsWrap>
         </AddressBlock>
@@ -158,7 +166,7 @@ const Layout: React.FC = ({ children }) => {
           <AddressTitle>
             Сказка ждёт вас по адресу:
             <br />
-            г. Костанай, ул. Карбышева 117
+            <Larger>г. Костанай, Карбышева 117</Larger>
           </AddressTitle>
           <ContactsWrap>
             <ContactsBlock>
@@ -168,9 +176,9 @@ const Layout: React.FC = ({ children }) => {
             </ContactsBlock>
             <ContactsSeparator />
             <ContactsBlock>
-              тел: 39-24-26
+              тел: <a href="tel:+77142392426">39-24-26</a>
               <br />
-              +7 777 538 0260
+              <a href="tel:+77775380260">+7 777 538 0260</a>
             </ContactsBlock>
           </ContactsWrap>
         </AddressBlock>
