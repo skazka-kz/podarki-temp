@@ -5,15 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import { graphql, useStaticQuery } from "gatsby"
-import React, { ReactNode } from "react"
-import { oc } from "ts-optchain"
-import { SiteTitleQueryQuery } from "../graphqlTypes"
-import Header from "./header"
-import "./layout.css"
+import { graphql, useStaticQuery } from "gatsby";
+import React, { ReactNode } from "react";
+import { oc } from "ts-optchain";
+import { SiteTitleQueryQuery } from "../graphqlTypes";
+import Header from "./header";
+import "./layout.css";
 
 interface Props {
-  children: ReactNode
+  children: ReactNode;
 }
 
 const useSiteTitle = () => {
@@ -27,12 +27,12 @@ const useSiteTitle = () => {
         }
       }
     `
-  )
-  return oc(data).site.siteMetadata.title("")
-}
+  );
+  return oc(data).site.siteMetadata.title("");
+};
 
 const Layout: React.FC<Props> = ({ children }) => {
-  const title = useSiteTitle()
+  const title = useSiteTitle();
 
   return (
     <>
@@ -53,7 +53,7 @@ const Layout: React.FC<Props> = ({ children }) => {
         </footer>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

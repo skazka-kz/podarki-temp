@@ -1,8 +1,8 @@
-import { graphql, useStaticQuery } from "gatsby"
-import GatsbyImage, { FluidObject } from "gatsby-image"
-import React from "react"
-import { oc } from "ts-optchain"
-import { ImageQueryQuery } from "../graphqlTypes"
+import { graphql, useStaticQuery } from "gatsby";
+import GatsbyImage, { FluidObject } from "gatsby-image";
+import React from "react";
+import { oc } from "ts-optchain";
+import { ImageQueryQuery } from "../graphqlTypes";
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -26,9 +26,9 @@ const Image: React.FC = () => {
         }
       }
     }
-  `)
+  `);
 
-  const imageFluid = oc(data).placeholderImage.childImageSharp.fluid() || null
+  const imageFluid = oc(data).placeholderImage.childImageSharp.fluid() || null;
   /**
    * The `as FluidObject` is not ideal.
    * The typings for GatsbyImage do not match the
@@ -38,6 +38,6 @@ const Image: React.FC = () => {
    */
   return imageFluid != null ? (
     <GatsbyImage fluid={imageFluid as FluidObject} />
-  ) : null
-}
-export default Image
+  ) : null;
+};
+export default Image;
