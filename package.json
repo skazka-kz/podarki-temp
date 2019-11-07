@@ -41,7 +41,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "npm run type-check",
-    "build": "gatsby build",
+    "build": "gatsby build && cp -ra public/. docs",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css}'",
     "start": "npm run develop",
