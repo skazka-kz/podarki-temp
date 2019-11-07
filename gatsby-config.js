@@ -30,5 +30,20 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-extract-schema`,
     `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Pacifico`,
+            subsets: ['cyrillic']
+          },
+          {
+            family: `Playfair Display`,
+            variants: [`700`],
+          },
+        ],
+      },
+    },
   ],
 };
