@@ -10,13 +10,14 @@ import botomRight from "../images/bottom_right.png";
 import left from "../images/left.png";
 import right from "../images/right.png";
 import top from "../images/top.png";
+import catalogue from "../files/katalog_2020_skazka.pdf";
 
 const PageWrap = styled.div`
   font-family: "Pacifico", cursive, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  //justify-content: space-between;
+  // justify-content: space-between;
 `;
 const Header = styled.header``;
 
@@ -43,7 +44,7 @@ const Nav = styled.nav`
 
 const InnerNav = styled.div`
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -99,17 +100,20 @@ const ContactsWrap = styled.div`
 const ContactsBlock = styled.address`
   font-family: serif;
   font-style: italic;
-  
+  line-height: 1.5;
+
   a {
-  color: white;
+    color: white;
   }
 `;
+
 const ContactsSeparator = styled.div`
   background-color: white;
   border: 1px solid white;
   border-radius: 0.25rem;
   margin: 0 1rem;
 `;
+
 const HorizontalSeparator = styled.div`
   margin: 1rem 10%;
   border: 1px solid white;
@@ -132,8 +136,12 @@ const Layout: React.FC = ({ children }) => {
         </LogoContainer>
         <Nav>
           <InnerNav>
-            <a href="#links"><Larger>Скачать</Larger></a>
-            <a href="#contacts"><Larger>Где Мы</Larger></a>
+            <a href={catalogue} target="_blank" rel="noopener noreferrer">
+              <Larger>Скачать</Larger>
+            </a>
+            <a href="#contacts">
+              <Larger>Где Мы</Larger>
+            </a>
           </InnerNav>
         </Nav>
       </Header>
