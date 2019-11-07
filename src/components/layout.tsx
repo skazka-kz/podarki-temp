@@ -36,7 +36,14 @@ const Nav = styled.nav`
   background-color: #922c27;
   padding: 0.5rem;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
+const InnerNav = styled.div`
+  width: 100%;
+  max-width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -81,10 +88,29 @@ const Footer = styled.footer`
 `;
 
 const AddressBlock = styled.div``;
-const AddressTitle = styled.h1``;
-const ContactsWrap = styled.div``;
-const ContactsBlock = styled.address``;
-const ContactsSeparator = styled.div``;
+const AddressTitle = styled.h1`
+  line-height: 1.5;
+  padding: 0.7rem;
+`;
+const ContactsWrap = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+const ContactsBlock = styled.address`
+  font-family: serif;
+  font-style: italic;
+`;
+const ContactsSeparator = styled.div`
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+  margin: 0 1rem;
+`;
+const HorizontalSeparator = styled.div`
+  margin: 1rem 10%;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+`;
 
 const Layout: React.FC = ({ children }) => {
   return (
@@ -97,8 +123,10 @@ const Layout: React.FC = ({ children }) => {
           <img src={logo} alt="Сказка Кокшетау Логотип" />
         </LogoContainer>
         <Nav>
-          <a href="#links">Скачать</a>
-          <a href="#contacts">Где Мы</a>
+          <InnerNav>
+            <a href="#links">Скачать</a>
+            <a href="#contacts">Где Мы</a>
+          </InnerNav>
         </Nav>
       </Header>
       {children}
@@ -115,7 +143,7 @@ const Layout: React.FC = ({ children }) => {
               <br />
               сб-вс: выходной
             </ContactsBlock>
-            <ContactsSeparator/>
+            <ContactsSeparator />
             <ContactsBlock>
               тел: 25-45-45
               <br />
@@ -123,6 +151,8 @@ const Layout: React.FC = ({ children }) => {
             </ContactsBlock>
           </ContactsWrap>
         </AddressBlock>
+
+        <HorizontalSeparator />
 
         <AddressBlock>
           <AddressTitle>
@@ -136,7 +166,7 @@ const Layout: React.FC = ({ children }) => {
               <br />
               сб-вс: выходной
             </ContactsBlock>
-            <ContactsSeparator/>
+            <ContactsSeparator />
             <ContactsBlock>
               тел: 39-24-26
               <br />
