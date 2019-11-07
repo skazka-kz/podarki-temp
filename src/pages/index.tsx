@@ -6,6 +6,9 @@ import titleImage from "../images/middle_graphic.png";
 import catalogue from "../files/katalog_2020_skazka.pdf";
 import contents from "../files/sostav_2020_skazka.pdf";
 
+import cat_cover from "../images/cover.png";
+import content_cover from "../images/contents_cover.png";
+
 import "../components/reset.css";
 
 const MainWrap = styled.section`
@@ -18,13 +21,14 @@ const MainWrap = styled.section`
 const PromotionSection = styled.div`
   position: relative;
   padding-top: 20vh;
+  text-align: center;
 
   @media (min-width: 600px) {
     min-height: 200px;
     padding-top: 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 `;
 
@@ -35,6 +39,11 @@ const Promo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (min-width: 600px) {
+    max-width: 180px;
+    justify-content: space-between;
+  }
 `;
 
 const LargeScreenOnly = styled.span`
@@ -65,12 +74,16 @@ const TopTitleImage = styled.img`
   }
 `;
 
-const ActionContainer = styled.section`
+const ActionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
   text-align: center;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
 `;
 
 const ActionButtonLink = styled.a`
@@ -83,7 +96,11 @@ const ActionButtonLink = styled.a`
   background-color: #922c27;
 `;
 
-const ActionImage = styled.img``;
+const CallToAction = styled.div``;
+
+const ActionImage = styled.img`
+  display: none;
+`;
 
 const IndexPage: React.FC = () => (
   <Layout>
@@ -101,22 +118,29 @@ const IndexPage: React.FC = () => (
           </LargeScreenOnly>
         </Promo>
       </PromotionSection>
-      <ActionContainer>
-        <ActionButtonLink
-          href={catalogue}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Каталог Подарков
-        </ActionButtonLink>
-        <ActionButtonLink
-          href={contents}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Состав Подарков
-        </ActionButtonLink>
-      </ActionContainer>
+      <ActionWrapper>
+        <CallToAction>
+          <ActionImage src={cat_cover} />
+          <ActionButtonLink
+            href={catalogue}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Каталог Подарков
+          </ActionButtonLink>
+        </CallToAction>
+
+        <CallToAction>
+          <ActionImage src={content_cover} />
+          <ActionButtonLink
+            href={contents}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Состав Подарков
+          </ActionButtonLink>
+        </CallToAction>
+      </ActionWrapper>
     </MainWrap>
   </Layout>
 );
