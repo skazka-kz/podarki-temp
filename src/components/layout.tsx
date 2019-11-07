@@ -16,7 +16,7 @@ const PageWrap = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  //justify-content: space-between;
 `;
 const Header = styled.header``;
 
@@ -132,13 +132,13 @@ const Layout: React.FC = ({ children }) => {
         </LogoContainer>
         <Nav>
           <InnerNav>
-            <a href="#links">Скачать</a>
-            <a href="#contacts">Где Мы</a>
+            <a href="#links"><Larger>Скачать</Larger></a>
+            <a href="#contacts"><Larger>Где Мы</Larger></a>
           </InnerNav>
         </Nav>
       </Header>
       {children}
-      <Footer>
+      <Footer id="contacts">
         <AddressBlock>
           <AddressTitle>
             Сказка ждёт вас по адресу:

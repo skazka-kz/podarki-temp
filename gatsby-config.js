@@ -36,11 +36,12 @@ module.exports = {
         fonts: [
           {
             family: `Pacifico`,
-            subsets: ['cyrillic']
+            subsets: ["cyrillic"],
           },
           {
             family: `Playfair Display`,
             variants: [`700`],
+            subsets: ["cyrillic"],
           },
         ],
       },
