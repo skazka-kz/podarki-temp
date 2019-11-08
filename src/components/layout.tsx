@@ -1,11 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "gatsby";
 
 import logo from "../images/skazka_logo.png";
 import topLeft from "../images/top_left.png";
-import bottomLeft from "../images/bottom_left.png";
-import botomRight from "../images/bottom_right.png";
 import left from "../images/left.png";
 import right from "../images/right.png";
 import top from "../images/top.png";
@@ -28,8 +25,8 @@ const LogoContainer = styled.div`
   img {
     height: 100px;
     padding: 0.5rem;
-    
-    @media(min-width: 600px){
+
+    @media (min-width: 600px) {
       height: 150px;
     }
   }
@@ -50,6 +47,10 @@ const InnerNav = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media (min-width: 600px) {
+    max-width: 600px;
+  }
 
   a {
     color: white;
@@ -79,8 +80,8 @@ const TopMiddleGraphic = styled.img`
   left: calc(50% - 150px);
   display: none;
   width: 300px;
-  
-  @media(min-width: 600px) {
+
+  @media (min-width: 600px) {
     display: block;
   }
 `;

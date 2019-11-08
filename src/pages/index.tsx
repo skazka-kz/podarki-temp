@@ -30,6 +30,11 @@ const PromotionSection = styled.div`
     align-items: center;
     justify-content: space-between;
   }
+
+  @media (min-width: 1000px) {
+    width: 1000px;
+    align-self: center;
+  }
 `;
 
 const Promo = styled.div`
@@ -101,6 +106,10 @@ const CallToAction = styled.a`
   display: flex;
   flex-direction: column;
   text-decoration: none;
+
+  @media (min-width: 1000px) {
+    margin: 0 4rem;
+  }
 `;
 
 const ActionImage = styled.img`
@@ -111,6 +120,10 @@ const ActionImage = styled.img`
     display: block;
     border-radius: 0.25rem;
     max-width: 300px;
+  }
+
+  @media (min-width: 1000px) {
+    max-width: 350px;
   }
 `;
 

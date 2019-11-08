@@ -9,7 +9,6 @@ import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { Helmet } from "react-helmet";
 import { oc } from "ts-optchain";
-import { SiteMetadataQueryQuery } from "../graphqlTypes";
 
 type MetaProps = JSX.IntrinsicElements["meta"];
 
@@ -21,33 +20,17 @@ interface Props {
 }
 
 const SEO: React.FC<Props> = ({ description, lang, meta, title }) => {
-  const { site }: SiteMetadataQueryQuery = useStaticQuery(
-    graphql`
-      query SiteMetadataQuery {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  );
-
-  const metaDescription = description || oc(site).siteMetadata.description("");
-
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${oc(site).siteMetadata.title("")}`}
+      titleTemplate={`%s | `}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: "metaDescription",
         },
         {
           property: `og:title`,
@@ -55,7 +38,7 @@ const SEO: React.FC<Props> = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: "metaDescription",
         },
         {
           property: `og:type`,
@@ -67,7 +50,7 @@ const SEO: React.FC<Props> = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:creator`,
-          content: oc(site).siteMetadata.author(""),
+          content: "",
         },
         {
           name: `twitter:title`,
@@ -75,7 +58,7 @@ const SEO: React.FC<Props> = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: "",
         },
         // @ts-ignore
       ].concat(meta)}
