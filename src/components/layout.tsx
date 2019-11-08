@@ -227,7 +227,7 @@ const Layout: React.FC = ({ children }) => {
             </ContactsBlock>
             <ContactsSeparator />
             <ContactsBlock>
-              тел: <a href="tel:+77142392426">39-24-26</a>
+              тел: <a href="tel:+77142392427">39-24-27</a>
               <br />
               <a href="tel:+77775380260">+7 777 538 0260</a>
             </ContactsBlock>
