@@ -64,6 +64,10 @@ const LeftSideGraphic = styled.img`
   max-height: 400px;
   left: 0;
   top: 0;
+  
+  @media(min-width: 1000px) {
+    max-height: 600px;
+  }
 `;
 
 const TopLeftGraphic = styled.img`
@@ -71,6 +75,10 @@ const TopLeftGraphic = styled.img`
   z-index: -1;
   max-width: 100px;
   left: 70px;
+  
+  @media(min-width: 1000px) {
+    max-width: 200px;
+  }
 `;
 
 const TopMiddleGraphic = styled.img`
@@ -84,6 +92,11 @@ const TopMiddleGraphic = styled.img`
   @media (min-width: 600px) {
     display: block;
   }
+  
+  @media(min-width: 1000px) {
+    width: 450px;
+    left: calc(50% - 225px);
+  }
 `;
 
 const RightSideGraphic = styled.img`
@@ -92,6 +105,10 @@ const RightSideGraphic = styled.img`
   max-height: 400px;
   top: 0;
   right: 0;
+  
+  @media(min-width: 1000px) {
+    max-height: 600px;
+  }
 `;
 
 const Footer = styled.footer`

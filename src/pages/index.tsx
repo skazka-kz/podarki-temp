@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 import titleImage from "../images/middle_graphic.png";
 import catalogue from "../files/katalog_2020_skazka.pdf";
@@ -129,6 +130,7 @@ const ActionImage = styled.img`
 
 const IndexPage: React.FC = () => (
   <Layout>
+    <SEO/>
     <MainWrap>
       <PromotionSection>
         <TopTitleImage src={titleImage} />
