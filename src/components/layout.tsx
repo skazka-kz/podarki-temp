@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 
 import logo from "../images/skazka_logo.png";
 import topLeft from "../images/top_left.png";
-import middle from "../images/middle_graphic.png";
 import bottomLeft from "../images/bottom_left.png";
 import botomRight from "../images/bottom_right.png";
 import left from "../images/left.png";
@@ -22,7 +21,6 @@ const PageWrap = styled.div`
 const Header = styled.header``;
 
 const LogoContainer = styled.div`
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,6 +28,10 @@ const LogoContainer = styled.div`
   img {
     height: 100px;
     padding: 0.5rem;
+    
+    @media(min-width: 600px){
+      height: 150px;
+    }
   }
 `;
 
@@ -70,6 +72,19 @@ const TopLeftGraphic = styled.img`
   left: 70px;
 `;
 
+const TopMiddleGraphic = styled.img`
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: calc(50% - 150px);
+  display: none;
+  width: 300px;
+  
+  @media(min-width: 600px) {
+    display: block;
+  }
+`;
+
 const RightSideGraphic = styled.img`
   position: absolute;
   z-index: -1;
@@ -86,6 +101,11 @@ const Footer = styled.footer`
   color: white;
   background-color: #922c27;
   padding: 1rem 0;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+    justify-content: center;
+  }
 `;
 
 const AddressBlock = styled.div``;
@@ -114,10 +134,14 @@ const ContactsSeparator = styled.div`
   margin: 0 1rem;
 `;
 
-const HorizontalSeparator = styled.div`
+const BlockSeparator = styled.div`
   margin: 1rem 10%;
   border: 1px solid white;
   border-radius: 0.25rem;
+
+  @media (min-width: 600px) {
+    margin: 1rem;
+  }
 `;
 
 const Larger = styled.span`
@@ -129,6 +153,7 @@ const Layout: React.FC = ({ children }) => {
     <PageWrap>
       <LeftSideGraphic src={left} />
       <TopLeftGraphic src={topLeft} />
+      <TopMiddleGraphic src={top} />
       <RightSideGraphic src={right} />
       <Header>
         <LogoContainer>
@@ -168,7 +193,7 @@ const Layout: React.FC = ({ children }) => {
           </ContactsWrap>
         </AddressBlock>
 
-        <HorizontalSeparator />
+        <BlockSeparator />
 
         <AddressBlock>
           <AddressTitle>

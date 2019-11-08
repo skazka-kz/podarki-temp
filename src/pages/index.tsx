@@ -77,29 +77,41 @@ const TopTitleImage = styled.img`
 const ActionWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
-  text-align: center;
 
   @media (min-width: 600px) {
     flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
   }
 `;
 
-const ActionButtonLink = styled.a`
+const ActionButton = styled.span`
   font-size: 1.8rem;
-  padding: 1rem;
-  margin: 0.5rem 1rem;
   border-radius: 0.25rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  text-align: center;
   color: white;
   text-decoration: none;
   background-color: #922c27;
 `;
 
-const CallToAction = styled.div``;
+const CallToAction = styled.a`
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+`;
 
 const ActionImage = styled.img`
+  width: 100%;
   display: none;
+
+  @media (min-width: 600px) {
+    display: block;
+    border-radius: 0.25rem;
+    max-width: 300px;
+  }
 `;
 
 const IndexPage: React.FC = () => (
@@ -119,26 +131,18 @@ const IndexPage: React.FC = () => (
         </Promo>
       </PromotionSection>
       <ActionWrapper>
-        <CallToAction>
+        <CallToAction
+          href={catalogue}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <ActionImage src={cat_cover} />
-          <ActionButtonLink
-            href={catalogue}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Каталог Подарков
-          </ActionButtonLink>
+          <ActionButton>Каталог Подарков</ActionButton>
         </CallToAction>
 
-        <CallToAction>
+        <CallToAction href={contents} target="_blank" rel="noopener noreferrer">
           <ActionImage src={content_cover} />
-          <ActionButtonLink
-            href={contents}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Состав Подарков
-          </ActionButtonLink>
+          <ActionButton>Состав Подарков</ActionButton>
         </CallToAction>
       </ActionWrapper>
     </MainWrap>
