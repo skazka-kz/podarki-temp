@@ -64,8 +64,8 @@ const LeftSideGraphic = styled.img`
   max-height: 400px;
   left: 0;
   top: 0;
-  
-  @media(min-width: 1000px) {
+
+  @media (min-width: 1000px) {
     max-height: 600px;
   }
 `;
@@ -75,8 +75,8 @@ const TopLeftGraphic = styled.img`
   z-index: -1;
   max-width: 100px;
   left: 70px;
-  
-  @media(min-width: 1000px) {
+
+  @media (min-width: 1000px) {
     max-width: 200px;
   }
 `;
@@ -92,8 +92,8 @@ const TopMiddleGraphic = styled.img`
   @media (min-width: 600px) {
     display: block;
   }
-  
-  @media(min-width: 1000px) {
+
+  @media (min-width: 1000px) {
     width: 450px;
     left: calc(50% - 225px);
   }
@@ -105,8 +105,8 @@ const RightSideGraphic = styled.img`
   max-height: 400px;
   top: 0;
   right: 0;
-  
-  @media(min-width: 1000px) {
+
+  @media (min-width: 1000px) {
     max-height: 600px;
   }
 `;
@@ -126,7 +126,10 @@ const Footer = styled.footer`
   }
 `;
 
-const AddressBlock = styled.div``;
+const AddressBlock = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 const AddressTitle = styled.h1`
   line-height: 1.5;
   padding: 0.7rem;
@@ -166,6 +169,17 @@ const Larger = styled.span`
   font-size: 1.3rem;
 `;
 
+const MapLinkButton = styled.a`
+  background-color: white;
+  border-radius: 0.25rem;
+  color: #922c27;
+  padding: 0.5rem;
+  margin: 0 1rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+`;
+
 const Layout: React.FC = ({ children }) => {
   return (
     <PageWrap>
@@ -194,8 +208,15 @@ const Layout: React.FC = ({ children }) => {
           <AddressTitle>
             Сказка ждёт вас по адресу:
             <br />
-            <Larger>г. Кокшетау, Ауэзова 191\1</Larger>
+            <Larger>г. Кокшетау, Ауэзова 191/1</Larger>
           </AddressTitle>
+          <MapLinkButton
+            href="https://go.2gis.com/rxt0v"
+            target="_blank"
+            rel="noopener nofollow"
+          >
+            Показать на карте
+          </MapLinkButton>
           <ContactsWrap>
             <ContactsBlock>
               пн-пт: 9:00 - 18:00
@@ -219,6 +240,13 @@ const Layout: React.FC = ({ children }) => {
             <br />
             <Larger>г. Костанай, Карбышева 117</Larger>
           </AddressTitle>
+          <MapLinkButton
+            href="https://go.2gis.com/gavcf"
+            target="_blank"
+            rel="noopener nofollow"
+          >
+            Показать на карте{" "}
+          </MapLinkButton>
           <ContactsWrap>
             <ContactsBlock>
               пн-пт: 9:00 - 18:00
