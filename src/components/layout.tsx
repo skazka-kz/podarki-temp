@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import styled from "styled-components";
 
 import logo from "../images/skazka_logo.png";
@@ -189,13 +190,15 @@ const Layout: React.FC = ({ children }) => {
       <RightSideGraphic src={right} />
       <Header>
         <LogoContainer>
-          <img src={logo} alt="Сказка Кокшетау Логотип" />
+          <Link to="/">
+            <img src={logo} alt="Сказка Кокшетау Логотип" />
+          </Link>
         </LogoContainer>
         <Nav>
           <InnerNav>
-            <a href={catalogue} target="_blank" rel="noopener noreferrer">
-              <Larger>Скачать</Larger>
-            </a>
+            <Link to="/gallery">
+              <Larger>Галерея</Larger>
+            </Link>
             <a href="#contacts">
               <Larger>Где Мы</Larger>
             </a>
