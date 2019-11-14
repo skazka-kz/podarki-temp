@@ -697,12 +697,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 50,
+    name: `Снежинка Большая`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `620`,
+    price: `1250`,
+    folder: "50_snezhinki_bolshie",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -711,12 +711,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 51,
+    name: `Волшебство`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `650`,
+    price: `1250`,
+    folder: "51_volshebstvo",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -725,12 +725,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 52,
+    name: `Лапландия`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `650`,
+    price: `1200`,
+    folder: "52_laplandiya",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -739,12 +739,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 53,
+    name: `Желаем Счастья`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `650`,
+    price: `1300`,
+    folder: "53_zhelaem_schastiya",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -753,12 +753,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 54,
+    name: `Дед Мороз и Снегурочка`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `620`,
+    price: `1200`,
+    folder: "54_ded_moroz_snegurochka",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -767,12 +767,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 55,
+    name: `Мишутка`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `420`,
+    price: `1700`,
+    folder: "55_mishutka",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -781,12 +781,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 56,
+    name: `Джинсовый Пенал`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `275`,
+    price: `1200`,
+    folder: "56_penal",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -795,12 +795,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 57,
+    name: `Джек и Стёпа`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `860`,
+    price: `1900`,
+    folder: "57_dzhek_i_styopa",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -809,12 +809,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 58,
+    name: `Юрта`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `720`,
+    price: `1500`,
+    folder: "58_yurta",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -823,12 +823,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 59,
+    name: `Чудеса Случаются`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `510`,
+    price: `1000`,
+    folder: "59_chudesa_sluchaiutsya",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -837,12 +837,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 60,
+    name: `Новогодняя Сказка`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `740`,
+    price: `1500`,
+    folder: "60_novogodnyaya_skazka",
     images: [
       "back.jpg",
       "cover.jgp",
@@ -851,12 +851,12 @@ export const db: PresentInfo[] = [
     ]
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 61,
+    name: `Замок`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `1000`,
+    price: `2300`,
+    folder: "61_zamok",
     images: [
       "back.jpg",
       "cover.jgp",
