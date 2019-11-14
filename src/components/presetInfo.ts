@@ -19,12 +19,7 @@ export const db: PresentInfo[] = [
       "back.jpg",
       "front.jgp",
       "pile.jpg",
-    ],
-    thumbs: [
-      "thumb_back.jpg",
-      "thumb_front.jgp",
-      "thumb_pile.jpg",
-    ],
+    ]
   },
   {
     name: `Фонарик "Кто Так"`,
