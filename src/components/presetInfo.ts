@@ -17,12 +17,7 @@ export const db: PresentInfo[] = [
     weight: `280`,
     price: `400`,
     folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 3,
@@ -31,12 +26,7 @@ export const db: PresentInfo[] = [
     weight: `200`,
     price: `270`,
     folder: "03_kubik_zolotoi",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 2,
@@ -45,12 +35,7 @@ export const db: PresentInfo[] = [
     weight: `320`,
     price: `490`,
     folder: "02_kto_tam",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 4,
@@ -59,12 +44,7 @@ export const db: PresentInfo[] = [
     weight: `215`,
     price: `300`,
     folder: "04_lesnoi_domik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 5,
@@ -73,12 +53,7 @@ export const db: PresentInfo[] = [
     weight: `310`,
     price: `450`,
     folder: "05_prazdnik_malenkii",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 6,
@@ -87,12 +62,7 @@ export const db: PresentInfo[] = [
     weight: `320`,
     price: `500`,
     folder: "06_s_novym_godom",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 7,
@@ -101,12 +71,7 @@ export const db: PresentInfo[] = [
     weight: `165`,
     price: `235`,
     folder: "07_kubik_malenkii",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 8,
@@ -115,12 +80,7 @@ export const db: PresentInfo[] = [
     weight: `250`,
     price: `345`,
     folder: "08_sumochka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 9,
@@ -129,12 +89,7 @@ export const db: PresentInfo[] = [
     weight: `250`,
     price: `360`,
     folder: "09_konfetka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 10,
@@ -143,12 +98,7 @@ export const db: PresentInfo[] = [
     weight: `260`,
     price: `365`,
     folder: "10_konfetka_raskraska",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 11,
@@ -157,12 +107,7 @@ export const db: PresentInfo[] = [
     weight: `300`,
     price: `430`,
     folder: "11_nedorogoi_podarok",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 12,
@@ -171,12 +116,7 @@ export const db: PresentInfo[] = [
     weight: `330`,
     price: `500`,
     folder: "12_belochka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 13,
@@ -185,12 +125,7 @@ export const db: PresentInfo[] = [
     weight: `315`,
     price: `480`,
     folder: "13_pochta_deda_moroza",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 14,
@@ -199,12 +134,7 @@ export const db: PresentInfo[] = [
     weight: `260`,
     price: `400`,
     folder: "14_krepkaya_druzhba",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 15,
@@ -213,12 +143,7 @@ export const db: PresentInfo[] = [
     weight: `290`,
     price: `475`,
     folder: "15_vesele_malenkoe",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 16,
@@ -227,12 +152,7 @@ export const db: PresentInfo[] = [
     weight: `215`,
     price: `345`,
     folder: "16_bumazhnye_snezhinki",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 17,
@@ -241,12 +161,7 @@ export const db: PresentInfo[] = [
     weight: `375`,
     price: `590`,
     folder: "17_kukuruznyi_domik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 18,
@@ -255,12 +170,7 @@ export const db: PresentInfo[] = [
     weight: `405`,
     price: `590`,
     folder: "18_snezhnyi_vecher",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 19,
@@ -269,12 +179,7 @@ export const db: PresentInfo[] = [
     weight: `410`,
     price: `600`,
     folder: "19_kubik_bolshoi",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 20,
@@ -283,12 +188,7 @@ export const db: PresentInfo[] = [
     weight: `410`,
     price: `700`,
     folder: "20_eko_sumochka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 21,
@@ -297,12 +197,7 @@ export const db: PresentInfo[] = [
     weight: `310`,
     price: `535`,
     folder: "21_fonarik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 22,
@@ -311,12 +206,7 @@ export const db: PresentInfo[] = [
     weight: `485`,
     price: `750`,
     folder: "22_skazochnyi_zamok",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 23,
@@ -325,12 +215,7 @@ export const db: PresentInfo[] = [
     weight: `340`,
     price: `550`,
     folder: "23_druziya",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 24,
@@ -339,12 +224,7 @@ export const db: PresentInfo[] = [
     weight: `450`,
     price: `700`,
     folder: "24_veselie_bolshoe",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 25,
@@ -353,12 +233,7 @@ export const db: PresentInfo[] = [
     weight: `250`,
     price: `400`,
     folder: "25_detki_snegoviki",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 26,
@@ -367,12 +242,7 @@ export const db: PresentInfo[] = [
     weight: `400`,
     price: `600`,
     folder: "26_elki_ogonki",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 27,
@@ -381,12 +251,7 @@ export const db: PresentInfo[] = [
     weight: `460`,
     price: `690`,
     folder: "27_novogodnee_chudo",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 28,
@@ -395,12 +260,7 @@ export const db: PresentInfo[] = [
     weight: `350`,
     price: `550`,
     folder: "28_snezhinka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 29,
@@ -409,12 +269,7 @@ export const db: PresentInfo[] = [
     weight: `520`,
     price: `800`,
     folder: "29_prazdnik_bolshoi",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 30,
@@ -423,12 +278,7 @@ export const db: PresentInfo[] = [
     weight: `500`,
     price: `800`,
     folder: "30_novogodnee_veselie",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 31,
@@ -437,12 +287,7 @@ export const db: PresentInfo[] = [
     weight: `180`,
     price: `320`,
     folder: "31_snegovichok",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 32,
@@ -451,12 +296,7 @@ export const db: PresentInfo[] = [
     weight: `300`,
     price: `500`,
     folder: "32_ushastik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 33,
@@ -465,12 +305,7 @@ export const db: PresentInfo[] = [
     weight: `410`,
     price: `700`,
     folder: "33_santafon",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 34,
@@ -479,12 +314,7 @@ export const db: PresentInfo[] = [
     weight: `350`,
     price: `600`,
     folder: "34_severnyi_uzor",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 35,
@@ -493,12 +323,7 @@ export const db: PresentInfo[] = [
     weight: `660`,
     price: `1150`,
     folder: "35_chasy",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 36,
@@ -507,12 +332,7 @@ export const db: PresentInfo[] = [
     weight: `350`,
     price: `555`,
     folder: "36_rebusy_zagadki",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 37,
@@ -521,12 +341,7 @@ export const db: PresentInfo[] = [
     weight: `450`,
     price: `850`,
     folder: "37_gorod_gnomov",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 38,
@@ -535,12 +350,7 @@ export const db: PresentInfo[] = [
     weight: `380`,
     price: `650`,
     folder: "38_myshkina_knizhka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 39,
@@ -549,12 +359,7 @@ export const db: PresentInfo[] = [
     weight: `420`,
     price: `660`,
     folder: "39_pismo_deda_moroza",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 40,
@@ -563,12 +368,7 @@ export const db: PresentInfo[] = [
     weight: `415`,
     price: `700`,
     folder: "40_lesnye_neposedy",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 41,
@@ -577,12 +377,7 @@ export const db: PresentInfo[] = [
     weight: `400`,
     price: `700`,
     folder: "41_myshonok_pik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 42,
@@ -591,12 +386,7 @@ export const db: PresentInfo[] = [
     weight: `560`,
     price: `1000`,
     folder: "42_podarok_ot_snegurochki",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 43,
@@ -605,12 +395,7 @@ export const db: PresentInfo[] = [
     weight: `850`,
     price: `1500`,
     folder: "43_veselyi_gruzovik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 44,
@@ -619,12 +404,7 @@ export const db: PresentInfo[] = [
     weight: `620`,
     price: `1200`,
     folder: "44_milashka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 45,
@@ -633,12 +413,7 @@ export const db: PresentInfo[] = [
     weight: `610`,
     price: `1100`,
     folder: "45_myshonok_mars",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 46,
@@ -647,12 +422,7 @@ export const db: PresentInfo[] = [
     weight: `500`,
     price: `900`,
     folder: "46_podarok_dlya_rebyat",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 47,
@@ -661,12 +431,7 @@ export const db: PresentInfo[] = [
     weight: `530`,
     price: `950`,
     folder: "47_zolotoe_siyanie",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 48,
@@ -675,12 +440,7 @@ export const db: PresentInfo[] = [
     weight: `400`,
     price: `760`,
     folder: "48_nochnoi_gorod",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 49,
@@ -689,12 +449,7 @@ export const db: PresentInfo[] = [
     weight: `540`,
     price: `1000`,
     folder: "49_volshebnaya_izbushka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 50,
@@ -703,12 +458,7 @@ export const db: PresentInfo[] = [
     weight: `620`,
     price: `1250`,
     folder: "50_snezhinki_bolshie",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 51,
@@ -717,12 +467,7 @@ export const db: PresentInfo[] = [
     weight: `650`,
     price: `1250`,
     folder: "51_volshebstvo",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 52,
@@ -731,12 +476,7 @@ export const db: PresentInfo[] = [
     weight: `650`,
     price: `1200`,
     folder: "52_laplandiya",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 53,
@@ -745,12 +485,7 @@ export const db: PresentInfo[] = [
     weight: `650`,
     price: `1300`,
     folder: "53_zhelaem_schastiya",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 54,
@@ -761,10 +496,12 @@ export const db: PresentInfo[] = [
     folder: "54_ded_moroz_snegurochka",
     images: [
       "back.jpg",
-      "cover.jgp",
-      "display.jgp",
+      "cover.jpg",
+      "cover_2.jpg",
+      "display.jpg",
       "pile.jpg",
-    ]
+      "back_2.jpg",
+    ],
   },
   {
     id: 55,
@@ -773,12 +510,7 @@ export const db: PresentInfo[] = [
     weight: `420`,
     price: `1700`,
     folder: "55_mishutka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 56,
@@ -787,12 +519,7 @@ export const db: PresentInfo[] = [
     weight: `275`,
     price: `1200`,
     folder: "56_penal",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 57,
@@ -803,10 +530,12 @@ export const db: PresentInfo[] = [
     folder: "57_dzhek_i_styopa",
     images: [
       "back.jpg",
-      "cover.jgp",
-      "display.jgp",
+      "cover.jpg",
+      "cover_2.jpg",
+      "display.jpg",
       "pile.jpg",
-    ]
+      "back_2.jpg",
+    ],
   },
   {
     id: 58,
@@ -815,12 +544,7 @@ export const db: PresentInfo[] = [
     weight: `720`,
     price: `1500`,
     folder: "58_yurta",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 59,
@@ -829,12 +553,7 @@ export const db: PresentInfo[] = [
     weight: `510`,
     price: `1000`,
     folder: "59_chudesa_sluchaiutsya",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 60,
@@ -843,12 +562,7 @@ export const db: PresentInfo[] = [
     weight: `740`,
     price: `1500`,
     folder: "60_novogodnyaya_skazka",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
     id: 61,
@@ -857,473 +571,310 @@ export const db: PresentInfo[] = [
     weight: `1000`,
     price: `2300`,
     folder: "61_zamok",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 62,
+    name: `Снежная Королева`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1150`,
+    price: `2500`,
+    folder: "62_snezhnaya_koroleva",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 63,
+    name: `Фабрика Новогодних Подарков`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `740`,
+    price: `1500`,
+    folder: "63_fabrika",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 64,
+    name: `Колокол`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `615`,
+    price: `1200`,
+    folder: "64_kolokol",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 65,
+    name: `Приключения с Гномами`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1120`,
+    price: `2150`,
+    folder: "65_priklucheniya_s_gnomami",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 66,
+    name: `Ёлка`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `650`,
+    price: `1300`,
+    folder: "66_elka",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 67,
+    name: `Посылка 48 Марок`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1230`,
+    price: `2400`,
+    folder: "67_posylka",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 68,
+    name: `Сказки Деда Мороза`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1220`,
+    price: `2400`,
+    folder: "68_skazki_deda_moroza",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 69,
+    name: `Догони Деда Мороза`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `575`,
+    price: `1200`,
+    folder: "69_dogoni",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 70,
+    name: `Ларец Ретро`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `615`,
+    price: `1200`,
+    folder: "70_larets",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 71,
+    name: `Новогоднее Путешествие`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1160`,
+    price: `2900`,
+    folder: "71_novogodnee_puteshestvie",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 72,
+    name: `Почтовый Ларец / Рюкзак`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
+    weight: `1070`,
+    price: `2100`,
+    folder: "72_pochtovyi_larets",
     images: [
       "back.jpg",
-      "cover.jgp",
-      "display.jgp",
+      "cover.jpg",
+      "cover_2.jpg",
+      "display.jpg",
       "pile.jpg",
-    ]
+      "back_2.jpg",
+    ],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 73,
+    name: `Дорогой Подарок`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1100`,
+    price: `2230`,
+    folder: "73_dorogoi_podarok",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 74,
+    name: `Чудеса Деда Мороза`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1000`,
+    price: `2320`,
+    folder: "74_chudesa_deda_moroza",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 75,
+    name: `В Новогоднюю Ночь`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1670`,
+    price: `3000`,
+    folder: "75_v_novogodnyuiu_noch",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 76,
+    name: `Книга Космос`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1160`,
+    price: `2500`,
+    folder: "76_kniga_kosmos",
+    images: ["back.jpg", "back_2.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 78,
+    name: `Книга Зоопарк`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1160`,
+    price: `2500`,
+    folder: "78_kniga_zoopark",
+    images: ["back.jpg", "back_2.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 79,
+    name: `Календарь`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `600`,
+    price: `2000`,
+    folder: "79_kalendar",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 80,
+    name: `Сказочная Дружина`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1160`,
+    price: `2500`,
+    folder: "80_druzhina",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 81,
+    name: `Щедрый Подарок`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `2000`,
+    price: `4850`,
+    folder: "81_shedryi_podarok",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 82,
+    name: `Семейка`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `800`,
+    price: `1900`,
+    folder: "82_semeika",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 83,
+    name: `Веселые Мышата`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `500`,
+    price: `1870`,
+    folder: "83_veselye_myshata",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 84,
+    name: `Золотой Подарок`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `1250`,
+    price: `2900`,
+    folder: "84_zolotoi_podarok",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 85,
+    name: `Деревянная Посылка`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `2000`,
+    price: `4900`,
+    folder: "85_derevyannaya_posylka",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 56,
+    name: `Джип`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `600`,
+    price: `2000`,
+    folder: "86_dzhip",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 87,
+    name: `Рюкзак Мышонок`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `800`,
+    price: `3900`,
+    folder: "87_ryukzak_myshonok",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 88,
+    name: `Счастливая Семейка`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `755`,
+    price: `4300`,
+    folder: "88_schshastlivaya_semeika",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 89,
+    name: `Санта`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `610`,
+    price: `4300`,
+    folder: "89_santa",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 90,
+    name: `Пиратский Сундук`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `740`,
+    price: `2300`,
+    folder: "90_piratskii_sunduk",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 91,
+    name: `Снек`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `800`,
+    price: `3800`,
+    folder: "91_snek",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 92,
+    name: `Пушистик`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `800`,
+    price: `3900`,
+    folder: "92_pushistik",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 93,
+    name: `Мистер Мышь`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `800`,
+    price: `4100`,
+    folder: "93_mister_mysh",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 94,
+    name: `Подушка Марсик`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `700`,
+    price: `4000`,
+    folder: "94_marsik",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
   {
-    id: 1,
-    name: `Колокольчик`,
+    id: 95,
+    name: `Рюкзак Микки`,
     description: ``,
-    weight: `280`,
-    price: `400`,
-    folder: "01_kolokolchik",
-    images: [
-      "back.jpg",
-      "cover.jgp",
-      "display.jgp",
-      "pile.jpg",
-    ]
+    weight: `550`,
+    price: `3900`,
+    folder: "95_mikki",
+    images: ["back.jpg", "cover.jpg", "display.jpg", "pile.jpg"],
   },
 ];
