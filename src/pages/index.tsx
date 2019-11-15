@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 
 // Import css
 import "react-image-lightbox/style.css";
+import "../components/custom.css";
 
 import titleImage from "../images/middle_graphic.png";
 import catalogue from "../files/katalog_2020_skazka.pdf";
