@@ -39,7 +39,7 @@ export const db: PresentInfo[] = [
   {
     id: 4,
     name: `Колокольчик`,
-    description: `asd`,
+    description: ``,
     weight: `280`,
     price: `400`,
     folder: "01_kolokolchik",
@@ -93,7 +93,7 @@ export const db: PresentInfo[] = [
   {
     id: 10,
     name: `Конфетка-Раскраска`,
-    description: ``,
+    description: `Содержит 4-D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона`,
     weight: `260`,
     price: `365`,
     folder: "10_konfetka_raskraska",
@@ -210,7 +210,7 @@ export const db: PresentInfo[] = [
   {
     id: 23,
     name: `Друзья`,
-    description: ``,
+    description: `Содержит 4-D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона`,
     weight: `340`,
     price: `550`,
     folder: "23_druziya",
@@ -300,7 +300,7 @@ export const db: PresentInfo[] = [
   {
     id: 33,
     name: `СантаФон`,
-    description: ``,
+    description: `Содержит 3D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона`,
     weight: `410`,
     price: `700`,
     folder: "33_santafon",
@@ -309,7 +309,7 @@ export const db: PresentInfo[] = [
   {
     id: 34,
     name: `Северный Узор / Северная Сказка`,
-    description: ``,
+    description: `Содержит 3D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона`,
     weight: `350`,
     price: `600`,
     folder: "34_severnyi_uzor",
@@ -318,7 +318,7 @@ export const db: PresentInfo[] = [
   {
     id: 35,
     name: `Часы`,
-    description: ``,
+    description: `Содержит 4-D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона`,
     weight: `660`,
     price: `1150`,
     folder: "35_chasy",
@@ -327,7 +327,7 @@ export const db: PresentInfo[] = [
   {
     id: 36,
     name: `Ребусы Загадки`,
-    description: ``,
+    description: `В подарке - игра и загадки для детей`,
     weight: `350`,
     price: `555`,
     folder: "36_rebusy_zagadki",
@@ -345,7 +345,7 @@ export const db: PresentInfo[] = [
   {
     id: 38,
     name: `Мышкина Книжка`,
-    description: ``,
+    description: `Обложка подарка - книга, с игрой для детей`,
     weight: `380`,
     price: `650`,
     folder: "38_myshkina_knizhka",
@@ -354,7 +354,7 @@ export const db: PresentInfo[] = [
   {
     id: 39,
     name: `Письмо Деда Мороза`,
-    description: ``,
+    description: `В упаковке игра для детей`,
     weight: `420`,
     price: `660`,
     folder: "39_pismo_deda_moroza",
@@ -408,7 +408,7 @@ export const db: PresentInfo[] = [
   {
     id: 45,
     name: `Мышонок Марс`,
-    description: ``,
+    description: `Содержит 3D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона`,
     weight: `610`,
     price: `1100`,
     folder: "45_myshonok_mars",
@@ -471,7 +471,7 @@ export const db: PresentInfo[] = [
   {
     id: 52,
     name: `Лапландия`,
-    description: ``,
+    description: `Содержит 3D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона`,
     weight: `650`,
     price: `1200`,
     folder: "52_laplandiya",
@@ -489,7 +489,7 @@ export const db: PresentInfo[] = [
   {
     id: 54,
     name: `Дед Мороз и Снегурочка`,
-    description: ``,
+    description: `Оба подарка, Дед Мороз и Снегурочка, идентичны по составу и цене.`,
     weight: `620`,
     price: `1200`,
     folder: "54_ded_moroz_snegurochka",
@@ -523,7 +523,7 @@ export const db: PresentInfo[] = [
   {
     id: 57,
     name: `Джек и Стёпа`,
-    description: ``,
+    description: `Оба подарка имеют одинаковый состав и цену`,
     weight: `860`,
     price: `1900`,
     folder: "57_dzhek_i_styopa",
@@ -575,7 +575,7 @@ export const db: PresentInfo[] = [
   {
     id: 62,
     name: `Снежная Королева`,
-    description: ``,
+    description: `Содержит игру для детей, в придачу к игре для смартфона`,
     weight: `1150`,
     price: `2500`,
     folder: "62_snezhnaya_koroleva",
@@ -602,7 +602,7 @@ export const db: PresentInfo[] = [
   {
     id: 65,
     name: `Приключения с Гномами`,
-    description: ``,
+    description: `Содержит 4-D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона. Так же обложка содержит игру`,
     weight: `1120`,
     price: `2150`,
     folder: "65_priklucheniya_s_gnomami",
@@ -638,7 +638,7 @@ export const db: PresentInfo[] = [
   {
     id: 69,
     name: `Догони Деда Мороза`,
-    description: ``,
+    description: `Обложка содержит игру для детей`,
     weight: `575`,
     price: `1200`,
     folder: "69_dogoni",
@@ -708,7 +708,7 @@ export const db: PresentInfo[] = [
   {
     id: 76,
     name: `Книга Космос`,
-    description: ``,
+    description: `Содержит несколько игр, включая раскраску и шахматы`,
     weight: `1160`,
     price: `2500`,
     folder: "76_kniga_kosmos",
@@ -717,7 +717,7 @@ export const db: PresentInfo[] = [
   {
     id: 78,
     name: `Книга Зоопарк`,
-    description: ``,
+    description: `Содержит несклько ребусов и игр`,
     weight: `1160`,
     price: `2500`,
     folder: "78_kniga_zoopark",
@@ -726,7 +726,7 @@ export const db: PresentInfo[] = [
   {
     id: 79,
     name: `Календарь`,
-    description: ``,
+    description: `Содержит 31 ячейку для каждого дня Декабря, в каждой из которых - конфета`,
     weight: `600`,
     price: `2000`,
     folder: "79_kalendar",
@@ -735,7 +735,7 @@ export const db: PresentInfo[] = [
   {
     id: 80,
     name: `Сказочная Дружина`,
-    description: ``,
+    description: `Содержит игру для детей`,
     weight: `1160`,
     price: `2500`,
     folder: "80_druzhina",
@@ -807,7 +807,7 @@ export const db: PresentInfo[] = [
   {
     id: 88,
     name: `Счастливая Семейка`,
-    description: ``,
+    description: `Содержит 4-D анимацию, которую вы можете посмотреть через специальное приложение для вашего смартфона`,
     weight: `755`,
     price: `4300`,
     folder: "88_schshastlivaya_semeika",

@@ -54,32 +54,34 @@ const GalleryItem = styled.button`
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
   }
-
-  span {
-    text-align: center;
-    color: #672722;
-
-    font-family: "Pacifico", cursive, sans-serif;
-  }
 `;
 
 const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100px;
+  min-height: 110px;
   justify-content: space-evenly;
 `;
 const Name = styled.span`
   font-size: 1.3rem;
   line-height: 1.4rem;
+  font-family: "Pacifico", cursive, sans-serif;
+  text-align: center;
+  color: #672722;
 `;
 const Weight = styled.span`
   font-size: 1.3rem;
   line-height: 1.1rem;
+  font-family: "Pacifico", cursive, sans-serif;
+  text-align: center;
+  color: #672722;
 `;
 const Price = styled.span`
   font-size: 1.8rem;
   line-height: 1.1rem;
+  font-family: "Pacifico", cursive, sans-serif;
+  text-align: center;
+  color: #672722;
 `;
 
 const ButtonContainer = styled.div`
