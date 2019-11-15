@@ -46,7 +46,7 @@ const GalleryItem = styled.button`
 const GalleryPage: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [imageIndex, setImageIndex] = useState(0);
-  const [images, setImages] = useState<string[]>([]);
+  const [images, setImages] = useState<string[] | undefined>([]);
   const [thumbs, setThumbs] = useState<string[]>([]);
 
   const showGallery = (present: PresentInfo) => {
