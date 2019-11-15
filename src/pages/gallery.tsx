@@ -15,9 +15,21 @@ const PageHeader = styled.h1`
 const GalleryWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
+  align-self: center;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 1rem;
+  
+  max-width: 440px;
+  
+  @media(min-width: 600px) {
+    max-width: 580px;
+  }
+  
+  @media(min-width: 1000px) {
+    max-width: 720px;
+  }
+  
 `;
 
 const GalleryItem = styled.button`
@@ -66,7 +78,25 @@ const Price = styled.span`
   line-height: 1.1rem;
 `;
 
+const ButtonContainer = styled.div`
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+`;
+
+const SortButton = styled.button`
+  margin: 0 0.5rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #922c27;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 5px 5px 5px rgba(169, 50, 47, 0.35);
+`;
+
 const GalleryPage: React.FC = () => {
+  const [activeItems, setActiveItems] = useState(db);
   const [isOpen, setIsOpen] = useState(false);
   const [imageIndex, setImageIndex] = useState(0);
   const [present, setPresent] = useState<PresentInfo | null>(null);
@@ -82,8 +112,15 @@ const GalleryPage: React.FC = () => {
     setImageIndex(0);
   };
 
+  const sortItems = (asc = true) => {
+    const sorted = asc
+      ? db.sort((a, b) => Number.parseInt(a.price) - Number.parseInt(b.price))
+      : db.sort((a, b) => Number.parseInt(b.price) - Number.parseInt(a.price));
+    setActiveItems([...sorted]);
+  };
+
   const renderGalleryItems = () => {
-    return db.map((present: PresentInfo) => {
+    return activeItems.map((present: PresentInfo) => {
       const thumbs = present.images.map(filename => {
         return `/presents/${present.folder}/thumb/${filename}`;
       });
@@ -145,6 +182,22 @@ const GalleryPage: React.FC = () => {
   return (
     <Layout>
       <PageHeader>Галерея и состав подарков</PageHeader>
+      <ButtonContainer>
+        <SortButton
+          onClick={() => {
+            sortItems(true);
+          }}
+        >
+          Сначала дешевле
+        </SortButton>
+        <SortButton
+          onClick={() => {
+            sortItems(false);
+          }}
+        >
+          Сначала дороже
+        </SortButton>
+      </ButtonContainer>
       <GalleryWrapper>{renderGalleryItems()}</GalleryWrapper>
       {isOpen && present && renderLightbox(present)}
     </Layout>
