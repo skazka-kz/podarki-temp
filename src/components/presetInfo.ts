@@ -12,7 +12,7 @@ export const db: PresentInfo[] = [
   {
     id: 1,
     name: `Кубик Золотой`,
-    description: ``,
+    description: `asdasd`,
     weight: `200`,
     price: `270`,
     folder: "03_kubik_zolotoi",

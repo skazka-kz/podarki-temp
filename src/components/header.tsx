@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./custom.css";
+
 import logo from "../images/skazka_logo.png";
 
 interface Props {
