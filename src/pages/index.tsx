@@ -12,9 +12,10 @@ import catalogue from "../files/katalog_2020_skazka.pdf";
 import contents from "../files/sostav_2020_skazka.pdf";
 
 import cat_cover from "../images/cover.png";
-import content_cover from "../images/contents_cover.png";
+import screenshot from "../images/screen.png";
 
 import "../components/reset.css";
+import { Link } from "gatsby";
 
 const MainWrap = styled.section`
   margin-bottom: 50px;
@@ -117,9 +118,21 @@ const CallToAction = styled.a`
   }
 `;
 
+const CtaLink = styled(Link)`
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+  @media (min-width: 1000px) {
+    margin: 0 4rem;
+  }
+`;
+
 const ActionImage = styled.img`
   width: 100%;
   display: none;
+  box-shadow: 0px 5px 5px rgba(169, 50, 47, 0.35);
 
   @media (min-width: 600px) {
     display: block;
@@ -134,7 +147,7 @@ const ActionImage = styled.img`
 
 const IndexPage: React.FC = () => (
   <Layout>
-    <SEO/>
+    <SEO />
     <MainWrap>
       <PromotionSection>
         <TopTitleImage src={titleImage} />
@@ -150,18 +163,14 @@ const IndexPage: React.FC = () => (
         </Promo>
       </PromotionSection>
       <ActionWrapper>
-        <CallToAction
-          href={catalogue}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <ActionImage src={cat_cover} />
-          <ActionButton>Каталог Подарков</ActionButton>
-        </CallToAction>
+        <CtaLink to="gallery">
+          <ActionImage src={screenshot} />
+          <ActionButton>Онлайн Каталог</ActionButton>
+        </CtaLink>
 
-        <CallToAction href={contents} target="_blank" rel="noopener noreferrer">
-          <ActionImage src={content_cover} />
-          <ActionButton>Состав Подарков</ActionButton>
+        <CallToAction href={catalogue} target="_blank" rel="noopener noreferrer">
+          <ActionImage src={cat_cover} />
+          <ActionButton>Скачать Каталог</ActionButton>
         </CallToAction>
       </ActionWrapper>
     </MainWrap>
