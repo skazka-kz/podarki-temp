@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
 import styled from "styled-components";
 
+// Import css
+import "../components/reset.css";
+import "react-image-lightbox/style.css";
+import "../components/custom.css";
+
 import Layout from "../components/layout";
 import { db, PresentInfo } from "../components/presetInfo";
 
@@ -19,17 +24,16 @@ const GalleryWrapper = styled.div`
   align-items: center;
   justify-content: space-around;
   margin-bottom: 1rem;
-  
+
   max-width: 440px;
-  
-  @media(min-width: 600px) {
+
+  @media (min-width: 600px) {
     max-width: 580px;
   }
-  
-  @media(min-width: 1000px) {
+
+  @media (min-width: 1000px) {
     max-width: 720px;
   }
-  
 `;
 
 const GalleryItem = styled.button`

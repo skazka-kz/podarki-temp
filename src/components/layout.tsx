@@ -7,14 +7,12 @@ import topLeft from "../images/top_left.png";
 import left from "../images/left.png";
 import right from "../images/right.png";
 import top from "../images/top.png";
-import catalogue from "../files/katalog_2020_skazka.pdf";
 
 const PageWrap = styled.div`
   font-family: "Pacifico", cursive, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
 `;
 const Header = styled.header``;
 
