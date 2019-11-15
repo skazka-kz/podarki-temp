@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import Lightbox from "react-image-lightbox";
 import styled from "styled-components";
 
+// Import css
+import "../components/reset.css";
+import "react-image-lightbox/style.css";
+import "../components/custom.css";
+
 import Layout from "../components/layout";
 import { db, PresentInfo } from "../components/presetInfo";
 
@@ -19,17 +24,16 @@ const GalleryWrapper = styled.div`
   align-items: center;
   justify-content: space-around;
   margin-bottom: 1rem;
-  
+
   max-width: 440px;
-  
-  @media(min-width: 600px) {
+
+  @media (min-width: 600px) {
     max-width: 580px;
   }
-  
-  @media(min-width: 1000px) {
+
+  @media (min-width: 1000px) {
     max-width: 720px;
   }
-  
 `;
 
 const GalleryItem = styled.button`
@@ -50,32 +54,34 @@ const GalleryItem = styled.button`
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
   }
-
-  span {
-    text-align: center;
-    color: #672722;
-
-    font-family: "Pacifico", cursive, sans-serif;
-  }
 `;
 
 const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100px;
+  min-height: 110px;
   justify-content: space-evenly;
 `;
 const Name = styled.span`
   font-size: 1.3rem;
   line-height: 1.4rem;
+  font-family: "Pacifico", cursive, sans-serif;
+  text-align: center;
+  color: #672722;
 `;
 const Weight = styled.span`
   font-size: 1.3rem;
   line-height: 1.1rem;
+  font-family: "Pacifico", cursive, sans-serif;
+  text-align: center;
+  color: #672722;
 `;
 const Price = styled.span`
   font-size: 1.8rem;
   line-height: 1.1rem;
+  font-family: "Pacifico", cursive, sans-serif;
+  text-align: center;
+  color: #672722;
 `;
 
 const ButtonContainer = styled.div`
