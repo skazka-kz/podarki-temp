@@ -111,7 +111,6 @@ const RightSideGraphic = styled.img`
 `;
 
 const Footer = styled.footer`
-  width: 100vw;
   display: flex;
   flex-direction: column;
   text-align: center;
