@@ -9,6 +9,7 @@ import "../components/custom.css";
 
 import Layout from "../components/layout";
 import { db, PresentInfo } from "../components/presetInfo";
+import SeoGallery from "../components/seoGallery";
 
 const PageHeader = styled.h1`
   padding: 1rem;
@@ -187,6 +188,7 @@ const GalleryPage: React.FC = () => {
 
   return (
     <Layout>
+      <SeoGallery />
       <PageHeader>Галерея и состав подарков</PageHeader>
       <ButtonContainer>
         <SortButton
